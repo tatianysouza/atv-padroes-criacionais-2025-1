@@ -1,4 +1,4 @@
-package br.edu.ifpb.ads.padroes.rpg.config;
+package br.edu.ifpb.ads.padroes.atv1.rpg.config;
 
 public class ConfiguracaoJogo {
 

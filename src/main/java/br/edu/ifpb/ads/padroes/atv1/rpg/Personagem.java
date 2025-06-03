@@ -1,4 +1,4 @@
-package br.edu.ifpb.ads.padroes.rpg;
+package br.edu.ifpb.ads.padroes.atv1.rpg;
 
 public class Personagem {
 

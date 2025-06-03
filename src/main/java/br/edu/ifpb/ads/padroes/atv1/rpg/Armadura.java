@@ -1,14 +1,14 @@
-package br.edu.ifpb.ads.padroes.rpg;
+package br.edu.ifpb.ads.padroes.atv1.rpg;
 
-public class Arma {
+public class Armadura {
 
     private String nome;
-    private int dano;
+    private int defesa;
     private String tipo;
 
-    public Arma(String nome, int dano, String tipo) {
+    public Armadura(String nome, int defesa, String tipo) {
         this.nome = nome;
-        this.dano = dano;
+        this.defesa = defesa;
         this.tipo = tipo;
     }
 
@@ -16,11 +16,12 @@ public class Arma {
         return nome;
     }
 
-    public int getDano() {
-        return dano;
+    public int getDefesa() {
+        return defesa;
     }
 
     public String getTipo() {
         return tipo;
     }
+
 }
