@@ -1,7 +1,6 @@
-package br.edu.ifpb.ads.padroes.atv1.rpg;
+package br.edu.ifpb.ads.padroes.atv1.rpg.model;
 
-public class Armadura {
-
+public class Armadura implements Cloneable {
     private String nome;
     private int defesa;
     private String tipo;
@@ -15,13 +14,20 @@ public class Armadura {
     public String getNome() {
         return nome;
     }
-
     public int getDefesa() {
         return defesa;
     }
-
     public String getTipo() {
         return tipo;
     }
 
+    @Override
+    public Armadura clone() {
+        try {
+            return (Armadura) super.clone();
+        }
+        catch (CloneNotSupportedException e) {
+            throw new AssertionError();
+        }
+    }
 }
